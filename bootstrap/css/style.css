@@ -1,0 +1,106 @@
+@font-face {
+   font-family:'myFont';
+   src:url('fonts/Yekan.eot') format('eot'),
+     url('fonts/Yekan.ttf') format('truetype'),
+     url('fonts/Yekan.woff') format('woff');
+}
+
+
+@import http://fonts.googleapis.com/css?family=Raleway;
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+#main {
+width:960px;
+margin:50px auto;
+font-family:raleway
+}
+span {
+color:red
+}
+h2 {
+background-color:#FEFFED;
+text-align:center;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px
+}
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+#login {
+width:300px;
+float:left;
+border-radius:10px;
+font-family:raleway;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+margin-top:70px
+}
+input[type=text],input[type=password] {
+width:99.5%;
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+font-family:raleway
+}
+input[type=submit] {
+width:100%;
+background-color:#FFBC00;
+color:#fff;
+border:2px solid #FFCB00;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px
+}
+#profile {
+	padding: 15px 10px;
+	border: 1px dashed grey;
+	font-size: 20px;
+	color: #DCE6F7;
+}
+#logout {
+float:right;
+padding:5px;
+border:dashed 1px gray
+}
+a {
+text-decoration:none;
+color:#6495ed
+}
+i {
+color:#6495ed
+}
+
+.navbar-nav > li {
+	float: right;
+}
+.navbar-header {
+	float: right;
+}
+.navbar-nav {
+	float: right;
+	margin: 0;
+}
+/*==============================================================background*/
+body {
+background: rgba(180, 180, 180, 0.25) url("../../image/provis-blog-post2.png") no-repeat center center fixed;
+}
+#user-login {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	direction: rtl;
+}
+a {
+	text-decoration: none;
+	color: #323232;
+	display: block;
+}
